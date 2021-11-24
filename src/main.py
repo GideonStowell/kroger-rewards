@@ -74,7 +74,7 @@ button = driver.find_element_by_name("NextButton")
 button.click()
 
 #Arrived at the first page (Overall satisfaction)
-element = driver.find_element_by_xpath('//*[@id="FNSR111000"]/td[1]/span')
+element = driver.find_element_by_xpath('//*[@id="FNSR331002"]/td[1]/span')
 element.click()
 
 button = driver.find_element_by_id("NextButton")
